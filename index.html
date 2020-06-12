@@ -1,116 +1,270 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <h1>Portfolio page</h1>
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Continue</a
+            >
+          </li>
+        </ul>
+      </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+      <!-- Header -->
+      <header id="header"></header>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My Portfolio</h1>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links"></ul>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/vytautas-vilkaitis-87443417b/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">Linkedin</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vilkaitisvyt"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </nav>
 
-				<!-- Header -->
-					<header id="header">
-				    </header>
+      <!-- Main -->
+      <div id="main">
+        <!-- Featured Post -->
+        <article class="post featured">
+          <header class="major">
+            <p
+              style="
+                font-size: large;
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+              "
+            >
+              Hi, my name is Vytautas. I am a web developer based in Vilnius,
+              and here are some of the projects i've been working on...
+            </p>
+          </header>
+        </article>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/vytautas-vilkaitis-87443417b/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/vilkaitisvyt" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- Posts -->
+        <section class="posts">
+          <article>
+            <header>
+              <h2>
+                <a
+                  href="https://notebook-application.herokuapp.com"
+                  target="_blank"
+                  >Notebook App</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://notebook-application.herokuapp.com"
+              target="_blank"
+              class="image fit"
+              ><img
+                id="img"
+                src="images/pic01.jpg"
+                alt="Picture of Notebook app"
+            /></a>
+            <p class="custom-p">
+              A full stack application using Spring boot, Spring security, Jwt,
+              Thymeleaf, Javascript, Html, Css and hosted on Heroku. (There will
+              be a ~10s startup delay if there are no instances running).
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/vilkaitisvyt/NotebookApp"
+                  target="_blank"
+                  class="button"
+                  >See code</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://notebook-application.herokuapp.com"
+                  target="_blank"
+                  class="button"
+                  >Preview</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>
+                <a
+                  href="https://vilkaitisvyt.github.io/Survey-form/"
+                  target="_blank"
+                  >Survey form</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://vilkaitisvyt.github.io/Survey-form/"
+              target="_blank"
+              class="image fit"
+              ><img
+                id="img"
+                src="images/survey_form.png"
+                alt="Picture of survey form"
+            /></a>
+            <p class="custom-p">
+              A simple survey form with html and css.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/vilkaitisvyt/Survey-form"
+                  target="_blank"
+                  class="button"
+                  >See code</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://vilkaitisvyt.github.io/Survey-form/"
+                  target="_blank"
+                  class="button"
+                  >Preview</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>
+                <a
+                  href="https://vilkaitisvyt.github.io/Tribute-page/"
+                  target="_blank"
+                  >Tribute page</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://vilkaitisvyt.github.io/Tribute-page/"
+              target="_blank"
+              class="image fit"
+              ><img
+                id="img"
+                src="images/tribute_page.png"
+                alt="Picture of tribute page"
+            /></a>
+            <p class="custom-p">
+              A simple tribute page to Walt Disney with html and css.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/vilkaitisvyt/Tribute-page"
+                  target="_blank"
+                  class="button"
+                  >See code</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://vilkaitisvyt.github.io/Tribute-page/"
+                  target="_blank"
+                  class="button"
+                  >Preview</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2><a>Coffee Maker</a></h2>
+            </header>
+            <a class="image fit"
+              ><img id="img" src="images/pic02.jpg" alt="Photo of a coffee maker"
+            /></a>
+            <p class="custom-p">A coffe maker program in Java 8.</p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://github.com/vilkaitisvyt/CoffeeMaker"
+                  target="_blank"
+                  class="button"
+                  >See code</a
+                >
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
 
-				<!-- Main -->
-					<div id="main">
+      <!-- Footer -->
+      <footer id="footer">
+        <section class="split contact">
+          <section class="alt">
+            <h3>Address</h3>
+            <p>Vilnius, Lithuania</p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p>vilkaitisvyt@gmail.com</p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/vytautas-vilkaitis-87443417b/"
+                  target="_blank"
+                  class="icon brands alt fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/vilkaitisvyt"
+                  target="_blank"
+                  class="icon brands alt fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+    </div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>My name is<br />
-									Vytautas Vilkaitis</h2>
-									<p>I am a software developer based in Vilnius, and here are some of the projects i've been working on...</p>
-								</header>								
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>										
-										<h2><a href="https://notebook-application.herokuapp.com" target="_blank" >Notebook App</a></h2>
-									</header>
-									<a href="https://notebook-application.herokuapp.com" target="_blank" class="image fit"><img id="img" src="images/pic01.jpg" alt="" /></a>
-									<p>A full stack application using Spring boot, Spring security, Jwt, Thymeleaf, Javascript, Html, Css
-										 and hosted on Heroku. (There will be a startup delay if there are no instances running).</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/vilkaitisvyt/NotebookApp" target="_blank" class="button">See code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>										
-										<h2><a>Coffee Maker</a></h2>
-									</header>
-									<a class="image fit"><img id="img" src="images/pic02.jpg" alt="" /></a>
-									<p>A coffe maker program in Java 8.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/vilkaitisvyt/CoffeeMaker" target="_blank" class="button">See code</a></li>
-									</ul>
-								</article>															
-							</section>
-
-						<!-- Footer -->
-							<footer>								
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Vilnius, Lithuania</p>
-							</section>							
-							<section>
-								<h3>Email</h3>
-								<p>vilkaitisvyt@gmail.com</p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">									
-									<li><a href="https://www.linkedin.com/in/vytautas-vilkaitis-87443417b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/vilkaitisvyt" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">						
-					</div>
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
