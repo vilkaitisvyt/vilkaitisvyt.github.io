@@ -1,1 +1,1 @@
-A portfolio page displaying my projects and my contact indormation. You can preview it at: https://vilkaitisvyt.github.io
+A portfolio page displaying my projects and my contact information. You can preview it at: https://vilkaitisvyt.github.io
